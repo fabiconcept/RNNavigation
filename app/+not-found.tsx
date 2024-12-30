@@ -8,7 +8,7 @@ import { Fragment } from 'react';
 export default function NotFoundScreen() {
   return (
     <Fragment>
-      <Stack.Screen options={{ title: 'Oops not found Man!' }} />
+      <Stack.Screen options={{ title: 'Oops!' }} />
       <ThemedView style={styles.container}>
         <ThemedText type="title">This screen doesn't exist.</ThemedText>
         <Link href="/" style={styles.link}>

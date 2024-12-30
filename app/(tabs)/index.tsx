@@ -11,6 +11,13 @@ export default function index() {
           </Text>
         </Pressable>
       </Link>
+      <Link href={"/contact"} style={styles.url} asChild>
+        <Pressable style={styles.btn} onPress={()=>console.log("Pressed!")} >
+          <Text style={{marginHorizontal: "auto", color: "#fff"}}>
+            Contact
+          </Text>
+        </Pressable>
+      </Link>
     </SafeAreaView>
   )
 }

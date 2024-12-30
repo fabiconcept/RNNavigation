@@ -31,14 +31,15 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         {/* <Stack.Screen name="(tabs)" options={{ headerShown: false }} /> */}
-        <Stack.Screen name="index" options={{
+        <Stack.Screen name="(coffee)" options={{ headerShown: true }} />
+        {/* <Stack.Screen name="index" options={{
           title: "Home",
           // headerShown: false
         }} />
         <Stack.Screen name="explore" options={{
           title: "Explore Page ",
           headerShown: false
-        }} />
+        }} /> */}
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />
